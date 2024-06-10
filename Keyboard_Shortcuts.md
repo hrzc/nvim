@@ -179,10 +179,42 @@ M- = *Meta +* <br />
 ### DIFF
 | KEY(S) | ACTION |
 | ------ | ------ |
+| zf | define fold up to motion |
+| zd | delete fold under cursor |
+| za | toggle fold under cursor |
+| zo | open fold under cursor |
+| zc | close fold under cursor |
+| zr | reduce all folds by one |
+| zm | fold all folds by one |
+| zi | toggle folding |
+| ]c | jump to next change |
+| [c | jump to past change |
+| do / :diffg[et] | get difference |
+| dp / :diffpu[t] | put difference |
+| :diffthis | add current to diff |
+| :dif[fupdate] | update differences |
+| :diffo[ff] | exit diff mode |
 
 ### CUT & PASTE
 | KEY(S) | ACTION |
 | ------ | ------ |
+| yy | yank line |
+| 2yy | yank two lines |
+| yw | yank word from cursor |
+| yiw | yank word |
+| yaw | yank word and space |
+| y$ / Y | yank to end of line |
+| p | past clipboard after |
+| P | paste clipboard before |
+| gp | paste back cursor forth |
+| gP | paste back cursor forth |
+| dd | cut line |
+| 2dd | cut two lines |
+| dw | cut to start of next word |
+| diw | cut word |
+| daw | cut word with space |
+| d$ / D | cut to end of line |
+| x | cut character |
 
 ### INDENT TEXT
 | KEY(S) | ACTION |
