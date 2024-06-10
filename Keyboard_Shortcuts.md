@@ -124,18 +124,57 @@ M- = *Meta +* <br />
 ### MARKING
 | KEY(S) | ACTION |
 | ------ | ------ |
+| v | visual mode |
+| V | linewise visual mode |
+| o | move to end of marked |
+| C-v | visual block mode |
+| O | move to other corner |
+| aw | mark a word |
+| ab | a block with () |
+| aB | a block with {} |
+| at | a block with <> tags |
+| ib | inner block with () |
+| iB | inner block with {} |
+| it | inner block with <> tags |
+| Esc | exit visual mode |
 
 ### VISUAL COMMANDS
 | KEY(S) | ACTION |
 | ------ | ------ |
+| > | shift text right |
+| < | shift text left |
+| y | yank marked text |
+| d | delete marked text |
+| ~ | switch case |
+| u | marked to lowercase |
+| U | marked to uppercase |
 
 ### REGISTERS
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :reg[isters] | show registers content |
+| "xy | yank into register x |
+| "xp | paste contents of x |
+| "+y | yank into sys clipboard |
+| "+p | paste out sys clipboard |
 
 ### MARKS & POSITION
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :marks | list of marks |
+| ma | set position for mark A |
+| `a | jump to mark A |
+| y`a | yank text to mark A |
+| `0 | jump to last exit point |
+| `" | go to last edit point |
+| `. | return from last jump |
+| :ju[mps] | list of jumps |
+| C-i | go to next jump in list |
+| C-o | go to past jump in list |
+| :changes | list of changes |
+| g, | go to next change in list |
+| g; | go to past change in list |
+| C-] | jump to tag below |
 
 ### DIFF
 | KEY(S) | ACTION |
