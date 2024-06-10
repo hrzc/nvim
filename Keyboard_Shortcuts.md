@@ -50,6 +50,48 @@ M- = *Meta +* <br />
 ### CURSOR MOVEMENT
 | KEY(S) | ACTION |
 | ------ | ------ |
+| h | move cursor left |
+| j | move cursor down |
+| k | move cursor up |
+| l | move cursor right |
+| gj | move cursor down+ |
+| gk | move cursor up+ |
+| H | move to top |
+| M | move to middle |
+| L | move to bottom |
+| w | jump to start of word |
+| W | jump to start of word+ |
+| e | jump to end of word |
+| E | jump to end of word+ |
+| b | fall to start of word |
+| B | fall to start of word+ |
+| ge | fall to end of word |
+| gE | fall to end of word+ |
+| % | move to matchpair |
+| 0 | jump to start of line |
+| ^ | jump to first character |
+| $ | jump to end of life |
+| g_ | jump to last character |
+| gg | jump to first line |
+| G | jump to last line |
+| 5gg / 5G | jump to line 5 |
+| gd | jump to local declaration |
+| gD | jump to global declaration |
+| fx | jump to next x |
+| tx | jump to before next x |
+| Fx | jump to previous x |
+| Tx | jump to after previous x |
+| ; | repeat last jump |
+| , | repeat last jump back |
+| } | jump to next paragraph |
+| { | jump to last paragraph |
+| zz | center cursor |
+| C-e | move screen down |
+| C-y | move screen up |
+| C-b | move back full screen |
+| C-f | move ahead full screen |
+| C-d | move ahead half screen |
+| C-u | move back half screen |
 
 ### MULTIPLE FILES
 | KEY(S) | ACTION |
