@@ -96,6 +96,30 @@ M- = *Meta +* <br />
 ### MULTIPLE FILES
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :e[edit] file | edit a file |
+| :bn[ext] | go to next buffer |
+| :bp[revious] | go to previous buffer |
+| :bd[elete] | delete a buffer |
+| :b[uffer]# | go to buffer by index |
+| :ls / :buffers | go to buffer by file |
+| :sp[lit] file | open file in split view |
+| :vs[plit] file | open file in split view |
+| :vert[ical] ba[ll] | edit all buffers in split |
+| :tab ba[ll] | edit all buffers as tabs |
+| C-ws | split window |
+| C-wv | split window vertically |
+| C-ww | switch windows |
+| C-wq | quit a window |
+| C-wx | switch window with next |
+| C-w= | equalize all windows |
+| C-wh | move cursor to left |
+| C-wl | move cursor to right |
+| C-wj | move cursor down |
+| C-wk | move cursour up |
+| C-wH | full height window left |
+| C-wL | full height window right |
+| C-wJ | full width window down |
+| C-wK | full width window top |
 
 ### MARKING
 | KEY(S) | ACTION |
