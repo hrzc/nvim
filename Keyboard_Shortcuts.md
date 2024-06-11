@@ -219,30 +219,77 @@ M- = *Meta +* <br />
 ### INDENT TEXT
 | KEY(S) | ACTION |
 | ------ | ------ |
+| >> | indent one shiftwidth |
+| << | de-indent one shiftwidth |
+| >% | indent block with (), {} |
+| >ib | indent inner block with () |
+| >at | indent block with <> |
+| 3== | re-indent three lines |
+| =% | re-indent block with (), {} |
+| =iB | re-indent inner block with () or {} |
+| gg=G | re-indent entire buffer |
+| ]p | paste with indent |
 
 ### SEARCH & REPLACE
 | KEY(S) | ACTION |
 | ------ | ------ | 
+| /pattern | search for pattern |
+| ?pattern | search back for pattern |
+| \vpattern | 'very magic' pattern |
+| n | next search result |
+| N | past search result |
+| :%s/old/new/g | replace all old with new |
+| :%s/old/new/gc | replace all old with new with confirmations |
+| :noh[lsearch] | remove search highlight |
 
 ### SEARCH MULTIPLE FILES
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :vim[grep] /pattern/ {'{file}'} | search for pattern in multiple files |
+| :cn[ext] | jump to next match |
+| :cp[revious] | jump to past match |
+| :cope[n] | open list of matches |
+| :ccl[ose] | close quickfix window |
 
 ### GLOBAL
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :h[elp] keyword | open help for keyword |
+| :sav[eas] file | save file as |
+| :cl[ose] | close current pane |
+| :ter[minal] | open a terminal window |
+| K | open man page for word under cursor |
 
 ### MACROS
 | KEY(S) | ACTION |
 | ------ | ------ |
+| qa | record macro a |
+| q | stop recording macro |
+| @a | run macro a |
+| @@ | rerun last run macro |
 
 ### TABS
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :tabnew | open new tab |
+| C-wT | move split to tab |
+| gt / :tabn[ext] | move to next tab |
+| gt / :tabp[revious] | move to past tab |
+| #gt | move to tab # |
+| :tabm[ove] # | move tab to # |
+| :tabc[lose] | close tab |
+| :tabo[nly] | close all other tabs |
+| :tabdo command | run command on all tabs |
 
 ### EXITING
 | KEY(S) | ACTION |
 | ------ | ------ |
+| :w | write file |
+| :w !sudo tee % | write file using sudo  |
+| :wq / :x / ZZ | write and quit |
+| :q | quit |
+| :q! / ZQ | force quit  |
+| :wqa | write and quit all tabs |
 
 <br />
 
