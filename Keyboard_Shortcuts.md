@@ -295,4 +295,4 @@ M- = *Meta +* <br />
 
 Sources: <br />
 [1 (VimDeskPad.png)](https://www.reddit.com/r/linux/comments/1cqdwm2/i_dont_think_i_ever_shared_my_vim_cheatsheet_desk/) <br />
-[2 (VIQuickReference.pdf)](https://www.mpaoli.net/~michael/unix/vi/summary.pdf) <br />
+[2 (ViQuickReference.pdf)](https://www.mpaoli.net/~michael/unix/vi/summary.pdf) <br />
